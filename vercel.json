@@ -1,0 +1,8 @@
+{
+  "buildCommand": "node node_modules/vite/bin/vite.js build",
+  "devCommand": "vite",
+  "installCommand": "npm install --legacy-peer-deps",
+  "env": {
+    "VITE_LEGACY_ENV_PREFIX": "true"
+  }
+}
